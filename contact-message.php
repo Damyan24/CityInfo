@@ -11,12 +11,9 @@ $servername = "localhost";
 $username = "root";
 $password = "root123";
 $dbname = "messages";
-$dbtable ="messages"
+$dbtable ="messages";
 
-$connection = new mysqli($servername,$username, $password, $dbname);
-
-
-if (isset($_POST['submit'])) {
+if (isset($_POST["submit"])) {
     $email = $_POST["email"];
     $message = $_POST["message"];
 
@@ -28,6 +25,20 @@ if (isset($_POST['submit'])) {
             $message_error = "Invalid message (must be at least 10 characters)";
         } else {
             $success = "Your message was sent to the database";
+
+            $conn = mysqli_connect($servername,$username,$password,$dbname);
+
+            if($conn === false){
+                die("ERROR: Could not connect. "
+                    . mysqli_connect_error());
+            }
+
+            $sql = "INSERT INTO messages VALUES('$email' , '$message')";
+            
+            mysqli_query($conn , $sql);
+            mysqli_close($conn);
+           
+            
         }
     }
 }

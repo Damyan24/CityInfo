@@ -43,7 +43,7 @@ header{
 </head>
 <body>
 <nav class = "navbar">
-  <a href="home.php" class = "links">
+  <a href="index.php" class = "links">
   <header>
   <i class="fa-solid fa-city"></i>
   <h1>CityInfo</h1>

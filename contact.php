@@ -5,15 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
-   
-
-    
-
-
-   
-    
-
     <style>
         .header{
             text-align:center;
@@ -125,6 +116,7 @@
         .success{
             color:green;
             font-weight:bold;
+            display:hidden;
         }
 
        
@@ -145,7 +137,7 @@ include "header.php";
         <input class = email type="text" id="email" name = "email" placeholder="example@gmail.com" value ="<?php echo $email;?>"><br>
         <label for="message">Message<div class = letters>(500 letters)</div>:</label><br>
         <textarea class = userInput placeholder="Describe your problem here..." id="message" name = "message" value = "<?php echo $message;?>"></textarea>
-        <input class = submit name = "submit" type="submit" value="Sumbit">
+        <input class = submit name = "submit" type="submit" value="SEND">
     
     
        <div class = info>

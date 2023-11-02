@@ -127,7 +127,7 @@ include 'header.php';
 
 <form method="post">
 <label for="name">Name of the city</label><br>
-<input class = name type="text" id="name" name = "name" placeholder="Varna" value ="<?php echo $city;?>"><br>
+<input class = name type="text" id="name" name = "name" placeholder="city name" ><br>
 <p class = error><?php echo $error_message ?></p>
 <input class = submit name = "submit" type="submit" value="SUBMIT">
 </form>

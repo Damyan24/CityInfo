@@ -12,7 +12,7 @@ and you are able to send a message.The message is send to the database and is pa
 # 3.Contact form 
 ![image](https://github.com/Damyan24/CityInfo/assets/117590469/b15d114f-49c0-4acf-af2a-966d2a15f2b4)
 
-#4.Result from the form
+# 4.Result from the form
 
 ![image](https://github.com/Damyan24/CityInfo/assets/117590469/60c321c8-024e-449a-a0d8-f13a5941e933)
 

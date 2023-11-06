@@ -1,6 +1,6 @@
 # CityInfo
 Write the name of the city you wish and receive the country and population, using [Countries & Cities API](https://documenter.getpostman.com/view/1134062/T1LJjU52)
-and you are able to send a message.The message is send to the database and is paired with email.
+and you are able to send a message. The message is send to the database and is paired with email.
 
 
 # 1.Default page
